@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-</head>
-<body>
-    jgghkkgjjk
-    nnnmnn jhbljk.
-    verd 3
-</body>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Signup</title>
+  </head>
+  <body>
+    <main class="container_wrapper">
+      <div class="container">
+        <div class="left_side">
+            <div class="mini_box">
+                   <img src="Logo.png" alt="logo"/>
+          <h3>For Individual</h3>
+          <p class="desktop_text">
+            Start benefitting from the wellness experience. For <br> companies
+            looking on increasing productivity, and improving organization
+            wellness.
+          </p>
+          <p class="mobile_text">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+            </div>
+        </div>
+        <div class="right_side">
+          <form action="#">
+            <div class="name">
+              <div class="input_box">
+                <span class="details">First Name</span><br/>
+                <input type="text" name="firstname" id="firstname"/>
+              </div>
+              <div class="input_box">
+                <span class="details">Last Name</span> <br/>
+                <input type="text" name="lastname" id="lastname"/>
+              </div>
+            </div>
+            <div class="gender_date_of_birth">
+              <div class="input_box">
+                <span class="details">Gender</span><br/>
+                <select name="gender" id="gender">
+                  <option class="placeholder" value="disabled selected hidden" id="select_here" value="select">Select here</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+              <div class="input_box">
+                <span class="add_details">Date of Birth</span><br/>
+                <input type="date" name="date_of_birth" id="date_of_birth" placeholder="Select here"/> 
+              </div>
+            </div>
+            <div class="weight_height">
+              <div class="input_box">
+                <span class="add_details">Weight (KG)</span><br>
+                <input type="text" name="" id="" placeholder="Enter Weight"/>
+              </div>
+              <div class="input_box">
+                <span class="height_details">Height (CM)</span><br>
+                <input type="number" name="height" id="height" placeholder="Enter height here"/>
+              </div>  
+            </div>
+             <div class="activity_details">
+                  <label for="activity">Activity</label><br>
+                   <select name="activity" id="activity">
+                  <option value="select">Select here</option>
+                </select>   
+              </div>
+               <div class="password_details">
+                  <label for="password">Password</label><br>
+                  <input type="password" name="password" id="password">
+              </div>
+              <div class="register_button">
+                  <input type="button" value="Register" >
+              </div>
+              <p class="terms_and_condition">By clicking Register, you agree to our <span class="terms_of_use">Terms of Use </span>and our <span class="privacy_policy">Privacy Policy</span></p>
+          </form>
+          <p class="terms_and_condition_two">By clicking Register, you agree to our <span class="terms_of_use">Terms of Use </span>and our <span class="privacy_policy">Privacy Policy</span></p>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
